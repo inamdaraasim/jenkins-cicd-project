@@ -1,0 +1,11 @@
+{
+  "name": "jenkins-cicd-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js",
+    "build": "node --check app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
